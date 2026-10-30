@@ -43,3 +43,21 @@ with col3:
     st.markdown("[View the GitHub Repository](https://github.com/JAMESKIBIRA/Kenya---malnutrition---dhs)")
 with col4:
     st.image("dhs_chart.png", caption="Top 10 Counties with Highest Stunting", use_container_width=True)
+
+st.write("---")
+
+# 5. Contact Section & CV Download
+st.header("📫 Contact & Resume")
+st.write("I am actively looking for data analysis internships and junior roles.")
+
+with open("resume.pdf", "rb") as pdf_file:
+    PDFbyte = pdf_file.read()
+
+st.download_button(
+    label="📄 Download My Resume (PDF)",
+    data=PDFbyte,
+    file_name="James_Kiruma_Resume.pdf",
+    mime="application/pdf"
+)
+
+st.write("Feel free to reach out via email or LinkedIn!")
