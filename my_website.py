@@ -5,7 +5,7 @@ st.set_page_config(page_title="James Kiruma | Data Analyst", page_icon="📊", l
 
 # 2. Sidebar
 with st.sidebar:
-    st.image("profile.jpg", width=200)
+    st.image("profile.png", width=200)
     st.title("James Kiruma")
     st.write("Data Analyst & Statistician")
     st.write("📍 Kutus, Kirinyaga, Kenya")
