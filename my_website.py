@@ -9,7 +9,7 @@ with st.sidebar:
     st.title("James Kiruma")
     st.write("Data Analyst & Statistician")
     st.write("📍 Kutus, Kirinyaga, Kenya")
-    st.write("📧 kibirajes33@gmail.com")
+    st.write("📧 kibirajames33@gmail.com")
     st.markdown("[LinkedIn](https://www.linkedin.com/in/james-kibira-7892a1444/) | [GitHub](https://github.com/JAMESKIBIRA)")
     st.write("---")
     st.write("Welcome to my portfolio!")
