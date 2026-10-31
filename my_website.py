@@ -56,6 +56,16 @@ with open("resume.pdf", "rb") as pdf_file:
 st.download_button(
     label="📄 Download My Resume (PDF)",
     data=PDFbyte,
+st.write("---")
+
+# 3. Interactive M-PESA App
+st.subheader("3. Interactive M-PESA Spending Analyzer")
+col5, col6 = st.columns(2)
+with col5:
+    st.write("A live, interactive web app where users can upload their own M-PESA CSV files to instantly visualize their spending.")
+    st.markdown("[Launch the App](https://james-mpesa-analyzer.streamlit.app)")
+with col6:
+    st.info("💡 Click the link to try the live data app!")
     file_name="James_Kiruma_Resume.pdf",
     mime="application/pdf"
 )
